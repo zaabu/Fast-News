@@ -26,7 +26,7 @@ const HomePage = props => {
       <div className="col s12 m6 l6 xl4" key={article.title}>
         <div className="card large">
           <div className="card-image">
-            <LazyLoadImage alt={article.title} src={article.urlToImage} />
+            <LazyLoadImage alt={article.title} src={article.image} />
           </div>
           <div className="card-content">
             <span className="card-title">{article.title}</span>

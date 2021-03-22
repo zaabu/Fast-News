@@ -29,7 +29,7 @@ const ArticleDetailModal = props => {
         </div>
         <div className="modal-content">
           <h4>{data.title}</h4>
-          <img className="responsive-img" src={data.urlToImage} alt={data.title} />
+          <img className="responsive-img" src={data.image} alt={data.title} />
           <p>{data.description}</p>
           <p>{data.content}</p>
           <div className="divider" />

@@ -42,65 +42,65 @@ const Header = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/articles/techradar" className="item" onClick={toggleMenu}>
-                  Tech Radar
+                <Link to="/articles/ca" className="item" onClick={toggleMenu}>
+                  Canada
                 </Link>
               </li>
               <li>
-                <Link to="/articles/mashable" className="item" onClick={toggleMenu}>
-                  Mashable
+                <Link to="/articles/au" className="item" onClick={toggleMenu}>
+                  Australia
                 </Link>
               </li>
               <li>
-                <Link to="/articles/the-verge" className="item" onClick={toggleMenu}>
-                  The Verge
+                <Link to="/articles/us" className="item" onClick={toggleMenu}>
+                  U.S
                 </Link>
               </li>
               <li>
-                <Link to="/articles/the-next-web" className="item" onClick={toggleMenu}>
-                  TNW
+                <Link to="/articles/ru" className="item" onClick={toggleMenu}>
+                  RUSSIA
                 </Link>
               </li>
               <li>
-                <Link to="/articles/wired" className="item" onClick={toggleMenu}>
-                  Wired
+                <Link to="/articles/uk" className="item" onClick={toggleMenu}>
+                  U.K
                 </Link>
               </li>
               <li>
-                <Link to="/articles/recode" className="item" onClick={toggleMenu}>
-                  Recode
+                <Link to="/articles/fr" className="item" onClick={toggleMenu}>
+                  FRANCE
                 </Link>
               </li>
             </ul>
             <ul id="nav-mobile" className="right hide-on-med-and-down">
               <li>
-                <Link to="/articles/techradar" className="item">
-                  Tech Radar
+                <Link to="/articles/ca" className="item">
+                  Canada
                 </Link>
               </li>
               <li>
-                <Link to="/articles/mashable" className="item">
-                  Mashable
+                <Link to="/articles/au" className="item">
+                  Australia
                 </Link>
               </li>
               <li>
-                <Link to="/articles/the-verge" className="item">
-                  The Verge
+                <Link to="/articles/us" className="item">
+                  U.S
                 </Link>
               </li>
               <li>
-                <Link to="/articles/the-next-web" className="item">
-                  TNW
+                <Link to="/articles/ru" className="item">
+                  RUSSIA
                 </Link>
               </li>
               <li>
-                <Link to="/articles/wired" className="item">
-                  Wired
+                <Link to="/articles/uk" className="item">
+                  U.K
                 </Link>
               </li>
               <li>
-                <Link to="/articles/recode" className="item">
-                  Recode
+                <Link to="/articles/fr" className="item">
+                  FRANCE
                 </Link>
               </li>
             </ul>

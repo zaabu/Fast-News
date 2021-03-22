@@ -26,7 +26,7 @@ const ArticleListPage = props => {
       <div className="col s12 m6 l6 xl4" key={article.title}>
         <div className="card large">
           <div className="card-image">
-            <LazyLoadImage alt={article.title} src={article.urlToImage} />
+            <LazyLoadImage alt={article.title} src={article.image} />
           </div>
           <div className="card-content">
             <span className="card-title">{article.title}</span>
@@ -48,7 +48,7 @@ const ArticleListPage = props => {
   const head = () => {
     return (
       <Helmet key={Math.random()}>
-        <title>{`${category} Articles`}</title>
+        {/* <title>{`${category} Articles`}</title> */}
         <meta property="og:title" content={`${category} Articles List`} />
         <meta
           name="description"
